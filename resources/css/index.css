@@ -1,0 +1,37 @@
+body{
+  background-image: url("IMG_20161230_233726.jpg") ;
+  background-size: 100%;
+  background-position: top;
+}
+
+h1{
+  font-family: ＭＳ Ｐゴシック;
+  font-size: 70px;
+  color: Firebrick;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th{
+  text-align: center;
+  background-color: Peru;
+  border: 2px solid #A52A2A;
+}
+
+table td{
+  border: 1px solid black;
+  padding: 5px 10px;
+  background-color: Beige;
+  text-align: center;
+}
+
+table tr:nth-child(odd) td{
+  background-color: #e7edf0;
+}
+
+.off td{
+  grid-column: 3 / 4;
+}
